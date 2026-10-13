@@ -1,0 +1,501 @@
+employee_id,department,role,tenure_years,grade,age
+E0001,Operations,Operations Manager,4.1,G2,27
+E0002,Sales,Sales Manager,0.5,G3,55
+E0003,Operations,Team Lead,2.1,G1,51
+E0004,Operations,Operations Manager,5.2,G4,46
+E0005,IT,Software Engineer,1.8,G2,40
+E0006,Marketing,Marketing Manager,5.8,G1,37
+E0007,Operations,Operations Manager,6.2,G2,21
+E0008,Operations, TEAM LEAD ,5.2,G4,28
+E0009,IT,IT Support,7.0,G2,56
+E0010,Sales,Account Manager,1.1,G3,34
+E0011,Sales,Sales Executive,8.0,G4,49
+E0012,Marketing,Marketing Manager,2.0,G1,49
+E0013,Finance,Accountant,4.6,G4,33
+E0014,Operations,Operations Associate,12.1,G2,29
+E0015,Sales,Account Manager,3.3,G2,48
+E0016,IT,DevOps Engineer,4.4,G3,24
+E0017,Finance,Financial Analyst,2.0,G5,40
+E0018,IT,Data Analyst,12.0,G2,56
+E0019,Operations,Operations Associate,2.1,G3,49
+E0020,Finance,Accountant,6.5,G2,51
+E0021,Operations,Operations Associate,9.2,G3,24
+E0022,Sales,Sales Executive,6.9,G3,28
+E0023,Marketing,Marketing Manager,5.4,G3,32
+E0024,Marketing,Marketing Manager,4.6,G3,32
+E0025,Operations,Operations Manager,1.6,G1,28
+E0026,IT,Software Engineer,11.7,G3,59
+E0027,Sales,Sales Executive,5.1,G3,27
+E0028,IT,Data Analyst,4.4,G3,49
+E0029,IT,IT Support,1.8,G1,44
+E0030,Operations,Team Lead,4.5,G2,45
+E0031,Operations,Team Lead,4.2,G2,29
+E0032,Marketing,Marketing Executive,12.1,G1,33
+E0033,HR,HR Manager,4.4,G2,45
+E0034,Sales,Sales Executive,4.5,G2,32
+E0035,Sales,Sales Executive,1.9,G4,48
+E0036,IT,IT Support,2.5,G2,22
+E0037,IT,DevOps Engineer,6.0,G4,23
+E0038,Sales,Sales Executive,0.9,G3,50
+E0039,IT,Data Analyst,8.0,G4,45
+E0040,Finance,Finance Manager,8.1,G3,22
+E0041,Sales,Sales Manager,2.3,G3,56
+E0042,Operations,Operations Manager,5.4,G3,21
+E0043,Operations,Team Lead,9.3,G5,59
+E0044,HR,Recruiter,4.0,G3,50
+E0045,Operations, OPERATIONS MANAGER ,3.5,G3,60
+E0046,Operations, OPERATIONS ASSOCIATE ,3.8,G3,58
+E0047,Sales,Sales Executive,5.1,G4,33
+E0048,HR,Recruiter,2.7,G1,51
+E0049,Operations,Operations Manager,3.3,G3,29
+E0050,IT,Software Engineer,5.2,G3,39
+E0051,IT,IT Support,3.1,G5,30
+E0052,IT,Data Analyst,1.7,G3,40
+E0053,Operations,Team Lead,0.8,G3,55
+E0054,Finance,Finance Manager,4.4,G5,38
+E0055,Operations,Operations Associate,9.0,G2,24
+E0056,Operations,Operations Manager,5.6,G2,33
+E0057,Sales,Account Manager,1.8,G2,52
+E0058,Finance,Finance Manager,2.5,G1,41
+E0059,IT,Data Analyst,3.4,G1,43
+E0060,IT,Data Analyst,12.3,G2,38
+E0061,Finance,Finance Manager,12.7,G4,32
+E0062,Sales,Sales Manager,11.8,G4,44
+E0063,Finance,Accountant,4.7,G1,46
+E0064,Operations,Operations Manager,20.0,G3,56
+E0065,Finance,IT Support,2.6,G1,45
+E0066,Finance,Financial Analyst,3.4,G5,60
+E0067,Finance,Finance Manager,7.6,G1,54
+E0068,HR,Recruiter,5.2,G3,24
+E0069,IT,Data Analyst,5.4,G2,36
+E0070,Sales,Sales Executive,2.0,G3,36
+E0071,IT,IT Support,4.2,G2,21
+E0072,Sales,Sales Executive,2.6,G4,28
+E0073,Operations,Operations Manager,1.5,G2,51
+E0074,IT,IT Support,2.8,G5,35
+E0075,IT,Data Analyst,5.2,G3,26
+E0076,HR,HR Executive,6.8,G4,32
+E0077,HR,HR Manager,0.8,G4,31
+E0078,Finance,Accountant,4.3,G5,27
+E0079,Finance,Financial Analyst,4.0,G2,25
+E0080,Operations,Operations Manager,5.0,G2,51
+E0081,Finance,Finance Manager,1.8,G2,53
+E0082,Sales,Sales Manager,1.8,G2,40
+E0083,Operations,Operations Manager,9.1,G3,45
+E0084,IT,IT Support,2.3,G5,57
+E0085,IT,Software Engineer,3.2,G5,54
+E0086,IT,DevOps Engineer,3.5,G3,22
+E0087,Operations,Operations Manager,2.6,G3,59
+E0088,Sales,Sales Manager,5.9,G4,23
+E0089,IT,IT Support,5.6,G5,22
+E0090,Sales,Sales Executive,3.9,G2,37
+E0091,IT,IT Support,2.7,G3,50
+E0092,Operations,Team Lead,3.7,G4,24
+E0093,Sales,Sales Manager,4.5,G2,32
+E0094,Sales,Account Manager,2.5,G2,31
+E0095,HR,HR Executive,6.2,G5,36
+E0096,Finance,Accountant,7.9,G5,60
+E0097,Sales,Sales Manager,10.1,G5,34
+E0098,IT,DevOps Engineer,9.7,G4,29
+E0099,IT,Software Engineer,3.5,G2,25
+E0100,Marketing,Content Specialist,4.7,G2,28
+E0101,Marketing,Content Specialist,3.9,G3,26
+E0102,Operations,Team Lead,3.9,G3,43
+E0103,HR,HR Manager,3.7,G3,37
+E0104,Marketing,Marketing Executive,4.4,G3,40
+E0105,Operations,Operations Associate,8.7,G2,54
+E0106,Operations,Operations Associate,5.3,G4,44
+E0107,Sales,Sales Executive,1.8,G2,27
+E0108,HR,HR Manager,7.7,G2,36
+E0109,IT,DevOps Engineer,5.0,G1,33
+E0110,Marketing,Marketing Executive,5.9,G2,54
+E0111,Sales,Account Manager,5.2,G4,33
+E0112,IT,Software Engineer,5.4,G2,26
+E0113,HR,HR Executive,5.6,G2,50
+E0114,Finance,Operations Associate,1.0,G4,38
+E0115,IT,Software Engineer,5.9,G3,24
+E0116,Operations,Team Lead,2.6,G1,48
+E0117,Operations,Operations Manager,3.1,G2,29
+E0118,Operations,Team Lead,4.3,G1,55
+E0119,Sales,Sales Manager,11.0,G3,54
+E0120,Finance,Financial Analyst,2.0,G2,35
+E0121,Finance,Accountant,4.2,G1,43
+E0122,Finance,Accountant,3.6,G1,43
+E0123,IT, DATA ANALYST ,7.7,G3,47
+E0124,Sales,Sales Executive,3.6,G1,23
+E0125,IT,DevOps Engineer,5.0,G4,33
+E0126,Sales,Sales Manager,2.0,G1,27
+E0127,HR,HR Manager,8.5,G3,48
+E0128,IT,IT Support,1.4,G2,23
+E0129,IT,IT Support,5.8,G2,41
+E0130,Finance,Financial Analyst,5.0,G1,50
+E0131,IT,Data Analyst,5.5,G4,58
+E0132,Marketing,Marketing Manager,1.4,G4,32
+E0133,Finance,Finance Manager,3.5,G1,21
+E0134,HR,HR Manager,7.4,G1,49
+E0135,Finance,Financial Analyst,12.1,G5,21
+E0136,IT,Software Engineer,4.0,G3,23
+E0137,Marketing,Marketing Manager,7.0,G1,60
+E0138,Sales,Account Manager,4.7,G2,55
+E0139,Operations,Operations Manager,4.2,G3,49
+E0140,IT,IT Support,3.2,G3,54
+E0141,Sales, SALES MANAGER ,4.3,G3,24
+E0142,Sales,Account Manager,6.6,G5,24
+E0143,Marketing,Marketing Manager,7.0,G3,33
+E0144,Finance,Finance Manager,1.6,G2,21
+E0145,Sales,Sales Executive,3.0,G3,56
+E0146,HR,Recruiter,1.9,G2,23
+E0147,HR,Recruiter,4.5,G2,42
+E0148,Sales,Sales Manager,3.4,G1,55
+E0149,Sales,Sales Manager,5.4,G2,50
+E0150,IT,DevOps Engineer,5.7,G3,30
+E0151,Operations,Team Lead,0.6,G1,39
+E0152,Marketing,Content Specialist,4.3,G2,42
+E0153,IT,Data Analyst,8.9,G3,51
+E0154,Finance,Finance Manager,3.0,G3,38
+E0155,IT,Data Analyst,3.0,G4,32
+E0156,Operations,Team Lead,7.9,G4,52
+E0157,HR,HR Executive,7.2,G3,56
+E0158,Finance,Finance Manager,2.1,G1,40
+E0159,Operations,Team Lead,6.7,G3,22
+E0160,Operations,Team Lead,2.5,G3,41
+E0161,IT,IT Support,2.9,G2,56
+E0162,Marketing,Content Specialist,2.1,G1,60
+E0163,IT,DevOps Engineer,1.6,G2,37
+E0164,IT,IT Support,4.7,G2,27
+E0165,Finance,Financial Analyst,1.4,G2,43
+E0166,Sales,Sales Executive,4.8,G1,54
+E0167,Operations,Operations Associate,4.7,G4,58
+E0168,Operations,Team Lead,3.9,G5,23
+E0169,HR,HR Manager,3.1,G2,32
+E0170,Marketing,Marketing Manager,2.7,G5,40
+E0171,HR,Recruiter,1.9,G1,24
+E0172,Sales,Account Manager,10.1,G5,56
+E0173,HR,Recruiter,3.8,G5,25
+E0174,Marketing,Marketing Executive,3.7,G1,47
+E0175,IT,Software Engineer,2.2,G4,57
+E0176,IT,Data Analyst,9.5,G5,48
+E0177,Sales,Sales Executive,2.8,G5,51
+E0178,Marketing,Marketing Executive,5.1,G5,31
+E0179,Marketing,Marketing Executive,5.7,G3,54
+E0180,Operations,Account Manager,4.7,G1,37
+E0181,Marketing,Content Specialist,1.4,G4,23
+E0182,Marketing, MARKETING MANAGER ,6.6,G3,35
+E0183,Sales,Sales Manager,2.8,G3,34
+E0184,HR,Recruiter,7.1,G2,41
+E0185,Operations,Team Lead,4.1,G3,31
+E0186,Finance,Accountant,6.0,G1,39
+E0187,Sales,Sales Executive,9.1,G4,38
+E0188,IT,IT Support,6.4,G1,34
+E0189,Operations,Team Lead,6.1,G3,48
+E0190,HR,HR Executive,6.7,G4,33
+E0191,Marketing,Content Specialist,2.4,G3,51
+E0192,IT,Data Analyst,7.3,G3,31
+E0193,IT,Software Engineer,3.6,G2,55
+E0194,Operations,Operations Manager,3.7,G5,35
+E0195,IT,IT Support,4.6,G4,22
+E0196,IT,IT Support,3.4,G2,26
+E0197,Finance,Finance Manager,2.0,G1,53
+E0198,Marketing,Marketing Manager,4.3,G2,55
+E0199,IT,DevOps Engineer,3.7,G3,29
+E0200,HR,Recruiter,3.6,G5,45
+E0201,Operations,Operations Manager,4.0,G4,43
+E0202,Marketing,Content Specialist,0.6,G2,26
+E0203,Sales,Sales Manager,3.6,G4,39
+E0204,IT,DevOps Engineer,9.8,G2,48
+E0205,IT,IT Support,9.3,G4,59
+E0206,IT,DevOps Engineer,4.4,G2,54
+E0207,IT,IT Support,4.3,G3,24
+E0208,Operations,Operations Manager,0.5,G5,30
+E0209,IT,Data Analyst,2.9,G2,38
+E0210,Sales,Sales Manager,6.7,G3,27
+E0211,Operations,Team Lead,3.3,G5,43
+E0212,Finance,Finance Manager,8.1,G1,21
+E0213,IT,Operations Associate,7.8,G1,25
+E0214,Operations,Operations Manager,2.9,G3,22
+E0215,Operations,Operations Associate,4.7,G2,32
+E0216,Operations,Operations Associate,10.3,G1,51
+E0217,IT,IT Support,1.4,G3,28
+E0218,IT,IT Support,3.3,G4,60
+E0219,Marketing,Marketing Manager,1.2,G2,31
+E0220,Sales,Account Manager,2.3,G2,22
+E0221,HR,Recruiter,12.1,G4,34
+E0222,Sales,Account Manager,3.3,G3,50
+E0223,Finance,Finance Manager,0.8,G4,25
+E0224,Marketing,Content Specialist,2.0,G2,23
+E0225,HR,Recruiter,1.1,G5,54
+E0226,Marketing,Marketing Manager,4.8,G3,44
+E0227,IT,Software Engineer,5.7,G1,34
+E0228,Finance,Finance Manager,7.4,G4,51
+E0229,Finance,Accountant,6.5,G3,54
+E0230,IT,Data Analyst,1.4,G1,35
+E0231,IT,DevOps Engineer,5.5,G1,43
+E0232,Sales,Sales Manager,3.9,G3,21
+E0233,Marketing,Marketing Manager,8.0,G1,33
+E0234,Finance,Finance Manager,6.9,G2,44
+E0235,Marketing,Content Specialist,13.0,G1,28
+E0236,Operations,Team Lead,2.1,G2,60
+E0237,Sales,Sales Executive,1.9,G2,59
+E0238,Operations,Operations Associate,3.1,G3,31
+E0239,IT,Data Analyst,4.0,G2,36
+E0240,IT,Software Engineer,2.6,G1,28
+E0241,Operations,Team Lead,2.2,G3,41
+E0242,Operations,Operations Manager,5.3,G2,25
+E0243,IT,DevOps Engineer,3.0,G3,36
+E0244,Sales,Account Manager,2.6,G1,43
+E0245,Finance,Finance Manager,1.4,G1,45
+E0246,Operations,Operations Manager,0.5,G2,44
+E0247,Finance,Finance Manager,9.5,G2,29
+E0248,Sales,Account Manager,9.4,G2,52
+E0249,Sales,Sales Executive,7.1,G4,48
+E0250,Sales,Sales Manager,6.1,G2,51
+E0251,Finance,Accountant,2.8,G3,39
+E0252,Operations,Team Lead,6.2,G3,56
+E0253,Sales,Sales Executive,1.8,G1,36
+E0254,IT,DevOps Engineer,4.6,G3,53
+E0255,IT,IT Support,2.4,G2,29
+E0256,Operations,Operations Associate,6.2,G2,30
+E0257,Operations,Operations Associate,10.7,G1,42
+E0258,IT,IT Support,2.0,G4,43
+E0259,IT,IT Support,3.0,G5,50
+E0260,Finance,Finance Manager,4.5,G1,32
+E0261,IT,Data Analyst,0.9,G3,55
+E0262,Operations,Operations Manager,1.2,G4,34
+E0263,HR,Recruiter,10.5,G2,42
+E0264,IT,DevOps Engineer,5.3,G4,58
+E0265,Marketing,Marketing Executive,2.7,G3,42
+E0266,IT,Software Engineer,4.2,G5,48
+E0267,HR,HR Executive,3.1,G5,57
+E0268,IT,Data Analyst,4.6,G1,59
+E0269,IT,DevOps Engineer,3.1,G2,40
+E0270,IT,Software Engineer,4.0,G3,37
+E0271,IT,Data Analyst,6.6,G1,28
+E0272,IT,Software Engineer,6.3,G2,42
+E0273,IT,DevOps Engineer,10.2,G5,57
+E0274,Finance,Finance Manager,5.5,G1,40
+E0275,Operations,Operations Manager,4.4,G2,34
+E0276,Sales,Sales Manager,11.1,G4,25
+E0277,HR,Recruiter,3.7,G2,36
+E0278,Sales,Sales Manager,0.6,G3,30
+E0279,Marketing,Marketing Executive,7.1,G5,60
+E0280,Operations,Operations Manager,5.1,G3,42
+E0281,IT,IT Support,4.3,G1,26
+E0282,IT,IT Support,7.2,G1,23
+E0283,IT,Data Analyst,3.2,G5,55
+E0284,IT,DevOps Engineer,0.6,G2,58
+E0285,Finance,Financial Analyst,7.3,G3,51
+E0286,Sales,Sales Executive,2.7,G1,25
+E0287,IT,DevOps Engineer,2.1,G2,24
+E0288,Sales,Sales Executive,0.6,G5,28
+E0289,Sales,Sales Executive,7.0,G3,51
+E0290,IT,IT Support,0.4,G5,51
+E0291,Operations,Operations Associate,9.1,G2,54
+E0292,IT,DevOps Engineer,3.4,G3,24
+E0293,Marketing,Content Specialist,7.2,G4,27
+E0294,IT,Software Engineer,5.6,G2,57
+E0295,Operations,Operations Manager,12.3,G2,58
+E0296,Marketing,Content Specialist,5.5,G4,50
+E0297,Marketing,Marketing Executive,8.9,G2,25
+E0298,Operations,Operations Manager,2.9,G3,23
+E0299,Operations,Team Lead,1.2,G5,23
+E0300,Finance, ACCOUNTANT ,7.9,G2,48
+E0301,Operations,Operations Manager,1.1,G2,54
+E0302,IT,Data Analyst,6.9,G1,46
+E0303,Sales,Sales Manager,1.9,G2,31
+E0304,Sales,Sales Manager,5.2,G2,51
+E0305,Operations,Team Lead,12.4,G3,23
+E0306,Sales, SALES MANAGER ,6.6,G2,54
+E0307,Sales,Sales Executive,3.7,G3,56
+E0308,Finance,Accountant,5.7,G2,49
+E0309,HR,Recruiter,3.0,G2,56
+E0310,IT,DevOps Engineer,15.3,G2,44
+E0311,Sales,Account Manager,2.5,G3,39
+E0312,Sales,Account Manager,4.0,G3,33
+E0313,IT,DevOps Engineer,6.2,G2,57
+E0314,Sales,Sales Manager,5.5,G4,48
+E0315,Sales,Sales Manager,5.9,G3,28
+E0316,HR,HR Executive,3.0,G2,59
+E0317,Sales,Sales Manager,3.6,G5,23
+E0318,Operations,Team Lead,7.6,G2,44
+E0319,HR,Recruiter,7.4,G1,28
+E0320,Marketing, CONTENT SPECIALIST ,5.5,G3,47
+E0321,Marketing,Marketing Executive,9.5,G1,37
+E0322,Sales,Sales Executive,7.8,G2,38
+E0323,HR,Recruiter,7.3,G4,47
+E0324,Sales,Sales Manager,1.1,G1,51
+E0325,Operations,Operations Manager,5.5,G4,36
+E0326,Finance,Recruiter,4.9,G5,60
+E0327,Operations,Operations Manager,10.3,G3,40
+E0328,Sales,Sales Executive,0.2,G3,27
+E0329,Finance,Finance Manager,3.9,G3,21
+E0330,HR,Recruiter,4.6,G5,29
+E0331,Operations,Team Lead,1.9,G2,48
+E0332,IT,IT Support,2.2,G1,42
+E0333,Operations,Team Lead,10.3,G3,34
+E0334,Operations,Operations Manager,5.8,G3,40
+E0335,IT,IT Support,12.5,G1,54
+E0336,Finance,Finance Manager,3.8,G3,43
+E0337,IT,IT Support,1.4,G1,23
+E0338,Operations,Operations Associate,3.4,G5,22
+E0339,IT,DevOps Engineer,3.0,G2,40
+E0340,Marketing,Content Specialist,6.7,G1,37
+E0341,IT,IT Support,6.5,G1,55
+E0342,Marketing,Marketing Executive,6.0,G2,44
+E0343,Operations,Operations Associate,14.8,G2,51
+E0344,Finance,Financial Analyst,9.2,G1,44
+E0345,Operations,Operations Associate,2.3,G2,34
+E0346,Operations,Operations Manager,8.0,G2,47
+E0347,Marketing,Marketing Manager,4.4,G2,45
+E0348,HR,HR Manager,3.7,G2,49
+E0349,Finance,Finance Manager,9.9,G2,28
+E0350,IT,IT Support,2.2,G2,46
+E0351,Finance,Accountant,7.7,G1,32
+E0352,IT,Data Analyst,6.9,G1,52
+E0353,Finance,Financial Analyst,2.1,G2,52
+E0354,Finance,Finance Manager,1.1,G4,45
+E0355,Sales,Sales Executive,4.1,G5,58
+E0356,Sales,Account Manager,8.5,G5,42
+E0357,Operations,Team Lead,5.5,G3,22
+E0358,Operations,Operations Associate,10.1,G3,45
+E0359,Sales,Sales Executive,5.2,G2,52
+E0360,Finance,Financial Analyst,10.5,G4,25
+E0361,Marketing, MARKETING EXECUTIVE ,2.8,G4,25
+E0362,IT,Software Engineer,6.0,G4,31
+E0363,IT,Data Analyst,3.3,G4,54
+E0364,IT,Software Engineer,4.0,G2,42
+E0365,Finance,Financial Analyst,4.6,G4,60
+E0366,Sales,Operations Manager,5.5,G4,55
+E0367,Operations,HR Executive,2.5,G2,43
+E0368,Operations,Team Lead,5.8,G5,48
+E0369,HR,HR Manager,4.5,G1,34
+E0370,Marketing,Content Specialist,1.4,G5,24
+E0371,Operations,Operations Manager,0.9,G4,36
+E0372,HR,Recruiter,8.6,G1,44
+E0373,Sales,Account Manager,3.9,G3,28
+E0374,HR,Recruiter,1.3,G1,29
+E0375,IT,DevOps Engineer,11.5,G4,21
+E0376,IT,DevOps Engineer,6.2,G4,50
+E0377,Marketing,Marketing Manager,5.4,G3,56
+E0378,Sales,Sales Manager,2.4,G4,54
+E0379,Sales,Account Manager,1.4,G1,36
+E0380,Operations,Team Lead,4.9,G2,44
+E0381,Finance,Finance Manager,4.3,G2,59
+E0382,Marketing,Financial Analyst,1.9,G1,44
+E0383,Operations,Team Lead,1.8,G2,32
+E0384,Sales,Sales Manager,1.8,G2,34
+E0385,Sales,Account Manager,1.7,G2,50
+E0386,Marketing,Marketing Executive,2.7,G2,38
+E0387,Operations,Team Lead,5.4,G4,54
+E0388,Marketing,Marketing Executive,6.0,G2,55
+E0389,IT,DevOps Engineer,4.2,G4,22
+E0390,Operations,Operations Manager,4.7,G2,49
+E0391,Finance,Accountant,6.2,G2,35
+E0392,IT,IT Support,0.7,G3,41
+E0393,Finance,Finance Manager,5.0,G2,31
+E0394,Operations,Operations Manager,9.5,G2,35
+E0395,IT,Software Engineer,3.8,G3,34
+E0396,Sales,Account Manager,8.3,G1,23
+E0397,Operations,Team Lead,3.9,G2,52
+E0398,HR,Recruiter,6.4,G3,26
+E0399,Sales, SALES EXECUTIVE ,5.3,G2,36
+E0400,Sales,Sales Executive,1.7,G4,28
+E0401,HR,HR Manager,2.1,G2,27
+E0402,Marketing,Marketing Executive,10.5,G5,35
+E0403,Operations,Operations Associate,7.3,G4,57
+E0404,IT,Data Analyst,4.0,G5,58
+E0405,Marketing,Marketing Executive,3.7,G4,36
+E0406,Marketing,Marketing Executive,2.4,G1,41
+E0407,HR,Recruiter,5.6,G3,60
+E0408,Operations,Operations Manager,2.5,G1,30
+E0409,IT,Software Engineer,3.3,G4,58
+E0410,Marketing,Marketing Executive,2.7,G3,25
+E0411,Finance,Accountant,7.0,G2,30
+E0412,Finance,Financial Analyst,3.9,G5,34
+E0413,IT,Data Analyst,4.8,G1,22
+E0414,Marketing,Marketing Manager,1.8,G3,53
+E0415,IT,IT Support,2.7,G3,55
+E0416,IT,DevOps Engineer,4.8,G1,36
+E0417,IT,IT Support,1.1,G3,54
+E0418,Operations, TEAM LEAD ,3.7,G4,51
+E0419,IT,DevOps Engineer,4.3,G1,53
+E0420,Marketing,Content Specialist,1.6,G3,53
+E0421,Finance,Finance Manager,8.1,G2,43
+E0422,IT,DevOps Engineer,5.4,G3,25
+E0423,IT,IT Support,3.9,G1,57
+E0424,IT,IT Support,2.6,G5,45
+E0425,Finance,Accountant,1.1,G4,57
+E0426,Operations,Operations Manager,7.7,G2,59
+E0427,IT,IT Support,3.1,G2,28
+E0428,Operations,Operations Manager,1.4,G3,37
+E0429,IT,Data Analyst,2.5,G3,28
+E0430,Operations,Operations Manager,5.8,G2,23
+E0431,Marketing,Content Specialist,5.1,G1,59
+E0432,Operations,Operations Associate,1.9,G1,57
+E0433,Operations,Operations Associate,8.6,G5,58
+E0434,Operations,Team Lead,1.4,G2,56
+E0435,IT,Data Analyst,9.7,G4,46
+E0436,IT,Software Engineer,4.9,G3,41
+E0437,IT,Data Analyst,3.3,G5,60
+E0438,Sales,Account Manager,3.6,G1,43
+E0439,Operations,Operations Associate,4.6,G1,46
+E0440,Finance,Finance Manager,6.1,G5,29
+E0441,Operations,Operations Manager,0.9,G5,50
+E0442,IT,Account Manager,2.5,G2,53
+E0443,Operations,Operations Manager,4.5,G2,48
+E0444,IT,Data Analyst,8.8,G2,40
+E0445,HR,HR Executive,8.6,G2,28
+E0446,Operations,Operations Associate,10.9,G2,22
+E0447,Marketing,Marketing Manager,8.3,G4,46
+E0448,Finance,Finance Manager,2.3,G2,48
+E0449,IT,IT Support,4.3,G3,51
+E0450,Finance,Accountant,8.4,G1,59
+E0451,IT,Data Analyst,7.9,G1,40
+E0452,Marketing,Marketing Executive,3.8,G3,54
+E0453,Operations,Operations Associate,6.0,G2,49
+E0454,IT,Software Engineer,3.1,G3,32
+E0455,IT,IT Support,1.3,G1,54
+E0456,IT,Software Engineer,4.0,G5,23
+E0457,Marketing,Marketing Manager,3.8,G4,44
+E0458,Sales,Account Manager,3.0,G4,58
+E0459,Operations,Operations Associate,6.1,G1,47
+E0460,Finance,Financial Analyst,3.7,G2,58
+E0461,Finance,Finance Manager,5.6,G2,23
+E0462,IT,Data Analyst,6.9,G3,42
+E0463,Marketing,Marketing Executive,15.8,G2,52
+E0464,HR,HR Executive,4.0,G1,46
+E0465,Finance,Finance Manager,8.9,G2,56
+E0466,Operations,Operations Associate,5.0,G2,39
+E0467,Finance,Financial Analyst,5.2,G2,48
+E0468,Marketing,Content Specialist,4.1,G2,37
+E0469,IT,DevOps Engineer,4.7,G2,55
+E0470,Sales,Team Lead,3.7,G3,25
+E0471,Sales,Sales Manager,7.9,G2,31
+E0472,Sales,Sales Manager,2.5,G2,24
+E0473,IT,Data Analyst,1.2,G3,49
+E0474,IT,Software Engineer,2.9,G4,30
+E0475,HR,HR Manager,2.7,G2,33
+E0476,HR,HR Executive,2.9,G3,54
+E0477,Sales,Account Manager,3.9,G5,35
+E0478,Finance,Financial Analyst,2.9,G3,26
+E0479,Finance,Accountant,3.9,G5,21
+E0480,Sales,Account Manager,2.9,G4,30
+E0481,Sales,Sales Executive,5.7,G1,57
+E0482,IT,Software Engineer,15.8,G2,42
+E0483,Finance,Accountant,5.0,G3,60
+E0484,HR,HR Executive,3.0,G5,29
+E0485,IT,Data Analyst,0.5,G2,35
+E0486,Sales,Sales Manager,12.7,G1,27
+E0487,Sales,Sales Executive,5.1,G3,36
+E0488,IT,Software Engineer,3.9,G1,43
+E0489,Finance,Accountant,0.5,G4,53
+E0490,Finance,Financial Analyst,4.0,G3,35
+E0491,Operations,Operations Associate,4.7,G3,51
+E0492,Finance,Financial Analyst,3.0,G4,46
+E0493,Finance,Accountant,1.5,G3,32
+E0494,HR,HR Executive,1.4,G3,57
+E0495,Operations,Team Lead,12.8,G4,38
+E0496,Sales,Account Manager,4.6,G4,27
+E0497,Sales,Account Manager,3.0,G4,59
+E0498,Finance,Finance Manager,4.4,G1,57
+E0499,Sales,Account Manager,4.2,G3,22
+E0500,Sales,Sales Manager,1.3,G2,57

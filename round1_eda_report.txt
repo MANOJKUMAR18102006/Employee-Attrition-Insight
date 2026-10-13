@@ -1,0 +1,98 @@
+========================================================================================
+ROUND 1: DATA UNDERSTANDING, PREPARATION AND EXPLORATORY DATA ANALYSIS (EDA) REPORT
+Project: CH05 – Employee Attrition Insight (DS Sprint Assessment)
+Note: This dataset contains 500 synthetic employees and is intended for assessment practice.
+========================================================================================
+
+1. DATA UNDERSTANDING & INITIAL DATASET DETAILS
+----------------------------------------------------------------------------------------
+Five input CSV files were ingested and inspected:
+- employees.csv   : 500 records, 6 attributes
+  Attributes: employee_id, department, role, tenure_years, grade, age
+  Missing Values: 0 | Duplicate Rows: 0
+
+- attendance.csv  : 508 records, 4 attributes
+  Attributes: employee_id, absence_days, overtime_hours_monthly, leave_days
+  Missing Values: 0 | Duplicate Rows: 8 (Exact duplicates)
+
+- compensation.csv: 500 records, 5 attributes
+  Attributes: employee_id, salary_band, monthly_salary, increment_band, benefits
+  Missing Values: 0 | Duplicate Rows: 0
+
+- engagement.csv  : 500 records, 3 attributes
+  Attributes: employee_id, survey_score, participation_pct
+  Missing Values: 20 in 'survey_score' | Duplicate Rows: 0
+
+- movement.csv    : 500 records, 4 attributes
+  Attributes: employee_id, promotion_count, transfer_count, exit_status
+  Missing Values: 15 in 'promotion_count' | Duplicate Rows: 0
+
+Total Unique Employees Across All Files: 500
+
+
+2. DATA PREPROCESSING & CLEANING SUMMARY
+----------------------------------------------------------------------------------------
+Step 1: Removed Duplicate Attendance Records
+- Issue: attendance.csv contained 8 redundant duplicate rows.
+- Action: Deduplicated records by employee_id.
+- Records Affected: 8 rows dropped (508 -> 500 rows).
+
+Step 2: Standardized Role Names
+- Issue: Inconsistent capitalization (all uppercase) and extraneous leading/trailing whitespace in role entries.
+- Action: Stripped whitespace, applied title case, and standardized technical role acronyms (IT Support, HR Manager, HR Executive, DevOps Engineer).
+- Records Affected: 12 records corrected across 10 distinct job title variations. Reduced unique role representations from 29 noisy labels to 19 valid roles.
+
+Step 3: Imputed Missing Engagement Survey Scores
+- Issue: 20 missing entries (4.0% of cohort) in 'survey_score'.
+- Action: Applied robust median imputation (median = 3.2).
+- Records Affected: 20 rows imputed.
+
+Step 4: Detected and Treated Extreme Overtime Outliers
+- Issue: Extreme overtime readings up to 220.0 hours/month detected via IQR analysis.
+  Statistics: Q1 = 8.9 hrs, Q3 = 23.1 hrs, IQR = 14.2 hrs.
+  Upper fence (Q3 + 1.5 * IQR) = 44.4 hrs.
+- Action: Capped values exceeding 44.4 hours at the upper fence threshold (Winsorization) to avoid data loss while dampening outlier distortion.
+- Records Affected: 16 records capped.
+
+Step 5: Imputed Missing Promotion Count History
+- Issue: 15 missing entries (3.0% of cohort) in 'promotion_count'.
+- Action: Applied robust median imputation (median = 1.0).
+- Records Affected: 15 rows imputed.
+
+Step 6: Data Consistency Validation & Multi-Table Merge
+- Verification: Validated 1-to-1 key consistency of employee_id across all 5 tables (100% match, 500 unique IDs).
+- Action: Merged all tables using 'employee_id' as the primary key.
+- Merged Dataset Dimensions: 500 rows, 18 columns (exactly 1 row per unique employee).
+- Final Data Quality: 0 missing values, 0 duplicate records.
+
+
+3. KEY EDA FINDINGS (DATA-DRIVEN)
+----------------------------------------------------------------------------------------
+Finding 1: Department & Job Role with Highest Attrition Rate
+- Empirical Observation:
+  * Department: The Human Resources (HR) department exhibits the highest attrition rate at 36.36% (16/44 employees left), followed by Operations at 30.77%. Both exceed the overall company attrition rate of 26.60%.
+  * Role: Among individual job roles, 'HR Executive' records the single highest attrition rate at 46.15% (6/13 employees left), followed by Recruiter (36.36%) and Team Lead (36.11%).
+- Possible Explanation:
+  Elevated turnover in HR personnel and frontline leaders (Team Leads) is often indicative of acute operational stress, recruitment strain, and burnout during organizational reorganization or high hiring pressures.
+
+Finding 2: Monthly Overtime Disparity Between Exited and Retained Employees
+- Empirical Observation:
+  * Retained Employees (Stayed): Average monthly overtime is 15.61 hours (median: 13.60 hrs, std: 9.82 hrs).
+  * Exited Employees (Left): Average monthly overtime is 21.52 hours (median: 19.70 hrs, std: 12.17 hrs).
+  * Absolute Difference: Employees who left worked on average +5.91 more overtime hours per month than employees who stayed (37.9% higher workload).
+- Possible Explanation:
+  Chronic overtime hours are a direct precursor to workplace exhaustion and dissatisfaction. Sustained elevated overtime disproportionately accelerates employee departures when unmitigated by workload rebalancing.
+
+
+4. ARTIFACTS AND OUTPUT FILES GENERATED
+----------------------------------------------------------------------------------------
+- Merged Clean Dataset : cleaned_employee_attrition.csv (500 rows, 18 columns)
+- Summary Report        : round1_eda_report.txt
+- Visualizations        :
+  1. outputs/01_attrition_rate_by_department.png
+  2. outputs/02_attrition_rate_by_job_role.png
+  3. outputs/03_tenure_comparison.png
+  4. outputs/04_overtime_comparison.png
+  5. outputs/05_engagement_score_comparison.png
+  6. outputs/06_promotion_history_vs_exit.png
+========================================================================================
